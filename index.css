@@ -7,13 +7,11 @@ body {
 .card img {
     margin-top: 20px;
 }
-
 .card {
     display: flex;
     justify-content: center;
     margin-top: 90px;
 }
-
 .card .orange {
     border-radius: 5px 0px 0px 5px;
     padding: 20px;
@@ -22,7 +20,6 @@ body {
     width: 230px;
     height: 400px;
 }
-
 .card .blue {
     padding: 20px;
     background-color: hsl(184, 100%, 22%);
@@ -30,7 +27,6 @@ body {
     width: 230px;
     height: 400px;
 }
-
 .card .green {
     border-radius: 0px 5px 5px 0px;
     padding: 20px;
@@ -39,16 +35,15 @@ body {
     width: 230px;
     height: 400px;
 }
-
 .card h1 {
     color:hsl(0, 0%, 95%);
     font-family: 'Big Shoulders Display', cursive;
+    font-size: 35px;
 }
-
 .card p {
     color: hsla(0, 0%, 100%, 0.75);
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 400;
+    font-size: 13px;
 }
 .card .button {
     border-radius: 30px;
@@ -57,21 +52,26 @@ body {
     height: 38px;
     width: 115px;
 }
-
 .card .button-orange .button {
     color: hsl(31, 77%, 52%);
     font-family: 'Lexend Deca', sans-serif;
+    margin-top: 72px;
 }
 .card .button-blue .button {
     color: hsl(184, 100%, 22%);
     font-family: 'Lexend Deca', sans-serif;
+    margin-top: 72px;
 }
 .card .button-green .button {
     color: hsl(179, 100%, 13%);
     font-family: 'Lexend Deca', sans-serif;
+    margin-top: 72px;
 }
 .card .button:hover{
     cursor: pointer;
     background-color: transparent;
     color:white;
+}
+.car .orange .box-orange {
+    display: flex;
 }
