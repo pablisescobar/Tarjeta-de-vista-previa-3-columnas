@@ -1,0 +1,77 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 95%);
+}
+.card img {
+    margin-top: 20px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.card .orange {
+    border-radius: 5px 0px 0px 5px;
+    padding: 20px;
+    background-color: hsl(31, 77%, 52%);
+    font-size: 15px;
+    width: 230px;
+    height: 400px;
+}
+
+.card .blue {
+    padding: 20px;
+    background-color: hsl(184, 100%, 22%);
+    font-size: 15px;
+    width: 230px;
+    height: 400px;
+}
+
+.card .green {
+    border-radius: 0px 5px 5px 0px;
+    padding: 20px;
+    background-color: hsl(179, 100%, 13%);
+    font-size: 15px;
+    width: 230px;
+    height: 400px;
+}
+
+.card h1 {
+    color:hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.card p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 400;
+}
+.card .button {
+    border-radius: 30px;
+    background-color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    height: 38px;
+    width: 115px;
+}
+
+.card .button-orange .button {
+    color: hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+.card .button-blue .button {
+    color: hsl(184, 100%, 22%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+.card .button-green .button {
+    color: hsl(179, 100%, 13%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+.card .button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color:white;
+}
