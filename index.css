@@ -48,14 +48,14 @@ body {
   font-size: 13px;
   padding-left: 15px;
 }
-.card .button-orange{
-    padding-left: 15px;
+.card .button-orange {
+  padding-left: 15px;
 }
-.card .button-blue{
-    padding-left: 15px;
+.card .button-blue {
+  padding-left: 15px;
 }
-.card .button-green{
-    padding-left: 15px;
+.card .button-green {
+  padding-left: 15px;
 }
 .card .button-orange .button {
   color: hsl(31, 77%, 52%);
@@ -93,20 +93,20 @@ body {
   color: white;
 }
 @media (max-width: 768px) {
-    .card {
-      display: flex;
-      margin-top: 22px;
-      width: 740px;
-      margin-left: 14px;
-    }
-    .card .orange {
-      border-radius: 5px 0px 0px 5px;
-    }
-  
-    .card .green {
-      border-radius: 0px 5px 5px 0px;
-    }
+  .card {
+    display: flex;
+    margin-top: 22px;
+    width: 740px;
+    margin-left: 14px;
   }
+  .card .orange {
+    border-radius: 5px 0px 0px 5px;
+  }
+
+  .card .green {
+    border-radius: 0px 5px 5px 0px;
+  }
+}
 @media (max-width: 425px) {
   .card {
     display: flex;
@@ -135,12 +135,24 @@ body {
   }
   .card .orange {
     border-radius: 5px 5px 0px 0px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: -36px;
   }
 
   .card .green {
     border-radius: 0px 0px 5px 5px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: -36px;
   }
+  .card .blue{
+    
+  };
 }
+
 @media (max-width: 320px) {
   .card {
     display: flex;
