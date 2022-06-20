@@ -117,11 +117,49 @@ body {
     margin-bottom: 10px;
   }
   .card .orange {
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: -36px;
+    height: 400px
   }
-
+  .card .blue {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: -36px;
+    height: 400px
+  }
   .card .green {
-    border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 10px 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: -36px;
+    height: 400px
+  }
+  .card img{
+    margin-top: 20px;
+    padding-left: 35px;
+    width: 90px;
+  }
+  .card h1 {
+    font-size: 30px;
+    padding-left: 35px;
+  }
+  .card p {
+    padding-left: 35px;
+    font-size: 15px;
+  }
+  .card .button-orange {
+    padding-left: 35px;
+  }
+  .card .button-blue {
+    padding-left: 35px;
+  }
+  .card .button-green {
+    padding-left: 35px;
   }
 }
 @media (max-width: 375px) {
@@ -134,23 +172,51 @@ body {
     margin-bottom: 25px;
   }
   .card .orange {
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
     width: 300px;
     display: flex;
     flex-direction: column;
     margin-left: -36px;
+    height: 400px;
   }
 
   .card .green {
-    border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 10px 10px;
     width: 300px;
     display: flex;
     flex-direction: column;
     margin-left: -36px;
   }
   .card .blue{
-    
-  };
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: -36px;
+  }
+  .card img{
+    margin-top: 20px;
+    padding-left: 35px;
+    width: 70px;
+  }
+  .card h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 35px;
+    padding-left: 35px;
+  }
+  .card p {
+    padding-left: 35px;
+  }
+  .card .button-orange {
+    padding-left: 35px;
+  }
+  .card .button-blue {
+    padding-left: 35px;
+  }
+  .card .button-green {
+    padding-left: 35px;
+  }
+
 }
 
 @media (max-width: 320px) {
@@ -163,10 +229,20 @@ body {
     margin-bottom: 35px;
   }
   .card .orange {
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: hsl(31, 77%, 52%);
+    width: 265px;
+    margin-left: -24px;
   }
-
+  .card .blue {
+    background-color: hsl(184, 100%, 22%);
+    width: 265px;
+    margin-left: -24px;
+  }
   .card .green {
-    border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: hsl(179, 100%, 13%);
+    width: 265px;
+    margin-left: -24px;
   }
 }
